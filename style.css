@@ -46,6 +46,37 @@ body {
   font-style: italic;
 }
 
+.button-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.6rem;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #333;
+  outline: none;
+  padding: 0.6rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(210, 210, 210, 0.2);
+}
+
+button:hover {
+  background: #222221;
+}
+
+button:active {
+  transform: translate(0, 0.1rem);
+}
+
+.fa-twitter {
+  font-size: 1.4rem;
+}
+
 /* Media query: tablet or smaller */
 
 @media screen and (max-width: 1000px) {
